@@ -1,0 +1,23 @@
+.panelPrincipalInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panelPrincipalInfoIcons {
+  display: flex;
+}
+
+.panelPrincipalContainer {
+  margin: 45px 30px;
+}
+
+.adminStatusBox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panelPrincipalInfo > div > h4 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}

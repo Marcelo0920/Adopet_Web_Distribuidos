@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8em;
+}
+
+.hero-img img {
+  height: 550px;
+  width: auto;
+}
+
+.hero-action {
+  width: 330px;
+}
+
+.hero-action * {
+  padding-bottom: 45px;
+}
+
+.hero-action h2 {
+  font-family: "Pangolin", cursive;
+  font-size: 40px;
+  letter-spacing: 0.2rem;
+  word-spacing: 7px;
+  color: black;
+}
+
+.hero-action p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  word-spacing: 5px;
+  color: black;
+}
+
+.hero .btn button {
+  font-weight: 700;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  padding: 20px 70px;
+  background: #124c5f;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-width: 0;
+}
+
+.hero .btn button:hover {
+  color: #ffbc0e;
+}

@@ -1,0 +1,43 @@
+.icon-bar {
+  padding-top: 7%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.icon-bar * {
+  margin-bottom: 30px;
+}
+
+.icon-bar-title {
+  font-family: "Pangolin", cursive;
+  font-size: 20px;
+}
+
+.icon-bar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.icon-bar-list .icon-bar-item {
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+  padding: 15px 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.icon-bar-list .icon-bar-item:hover {
+  transform: scale(1.2);
+}
+
+.icon-bar-list .icon-bar-item:first-child img {
+  height: 60px;
+}
+
+.icon-bar-list p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}

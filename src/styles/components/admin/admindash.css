@@ -1,0 +1,10 @@
+.adminDashHeader {
+  max-width: 100%;
+  width: 100%;
+}
+
+.headerIcons {
+  display: flex;
+  justify-content: end;
+  background-color: red;
+}

@@ -1,0 +1,113 @@
+.contain {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.form-container {
+  width: 70%;
+  padding: 2.2em 3.8em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  margin-top: 6em;
+  margin-bottom: 5em;
+}
+
+.black-text {
+  color: black;
+}
+
+.register-link {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.form {
+  padding: 0.8em;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-input {
+  margin-bottom: 2em;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-input input:focus {
+  border: none;
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.button-login {
+  text-align: center;
+  background-color: #ffe55e;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  padding: 11px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button-login:hover {
+  background-color: #ffaa00;
+}
+
+.button-login button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Archivo Black", sans-serif;
+  text-shadow: 0.3px 0.3px 0.3px #000, -0.3px 0.3px 0.3px #000,
+    -0.3px -0.3px 0 #000, 0.3px -0.3px 0 #000;
+}
+
+.hero-login {
+  background-image: url(/src/assets/login1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 2.5em;
+}
+
+.hero-box {
+  background-color: red;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px 15px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+  backdrop-filter: blur(10px) brightness(100%);
+  background-color: #0000001f;
+}

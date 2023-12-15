@@ -1,0 +1,11 @@
+.content {
+  width: 90%;
+  margin: 6% auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 5em auto;
+}

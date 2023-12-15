@@ -1,0 +1,31 @@
+.adminDash {
+  display: flex;
+  background-color: #e5e5e5;
+}
+p {
+  color: black;
+}
+
+.adminDashHeader {
+  max-width: 100%;
+  width: 100%;
+}
+
+.registrosPendientes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.ulOptions {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 30px 15px;
+  font-family: "Roboto", sans-serif;
+  color: #8f8f8f;
+}
+
+.registrosPasadosWrap {
+  margin-top: 25px;
+}

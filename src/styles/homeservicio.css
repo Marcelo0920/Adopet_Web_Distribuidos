@@ -1,0 +1,40 @@
+.servicio-section {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 8%;
+}
+
+.servicio-title {
+  width: 550px;
+}
+
+.servicio-title h3 {
+  font-family: "Pangolin", cursive;
+  font-size: 33px;
+  letter-spacing: 0.1rem;
+  word-spacing: 5px;
+  padding-top: 40px;
+}
+
+.servicio-title p {
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  word-spacing: 5px;
+  color: #4e4c46;
+}
+
+.btn button {
+  font-weight: 700;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  padding: 15px 31px;
+  background: #124c5f;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 25px;
+  border-width: 0;
+}

@@ -1,0 +1,22 @@
+.adminnavbar {
+  background-color: #fafafa;
+  display: flex;
+  padding: 18px;
+  justify-content: flex-end;
+}
+
+.navIcons {
+  margin: auto 10px;
+}
+
+.navIcons > * {
+  margin-right: 20px;
+}
+
+.selectionButton {
+  padding: 8px;
+  border-width: 1.5px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
